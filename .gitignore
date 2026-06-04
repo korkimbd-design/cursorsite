@@ -1,0 +1,22 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Build / upload temp (Confluence scripts)
+reports/storage-out.txt
+reports/update_payload.json
+reports/wiki-content-for-api.txt
+reports/wiki-page-content.md
+reports/wiki-storage.html
+reports/build_*.py
+reports/md2html.py
+
+# Clone temp
+_tmp_*
+gcm-diagnose.log
+
+# Local legacy (duplicate of .cursor/skills)
+.agents/
